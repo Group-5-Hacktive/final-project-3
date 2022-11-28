@@ -88,8 +88,10 @@ body {
     bottom: 0%;
     height: 48px;
     width: 554px;
+    
 
-
+    font-family: 'Basic';
+    font-style: normal;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -120,7 +122,8 @@ body {
     height: 48px;
     width: 554px;
 
-
+    font-family: 'Basic';
+    font-style: normal;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -155,6 +158,8 @@ body {
     height: 168px;
     width: 554px;
 
+    font-family: 'Basic';
+    font-style: normal;
     background: #FFFFFF;
     border: 1px solid rgba(0, 0, 0, 0.2);
     box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -172,6 +177,19 @@ body {
     border: none;
 
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+}
+
+.submit-button:hover {
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    height: 48px;
+    width: 554px;
+    border: none;
+
+    background: linear-gradient(270deg, #E73587 0%, #8C32F0 100%);
+    transition: 0.5s;
 }
 
 .footer {
