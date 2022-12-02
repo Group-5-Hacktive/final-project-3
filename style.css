@@ -39,12 +39,13 @@ body {
     color: #020E35;
 }
 
-.line-about {
+hr.line-about {
+    opacity: 100%;
     border: 1px solid #E73587;
     width: 100px;
     position: absolute;
-    left: 670px;
-    top: 855px;
+    margin-top: 835px;
+    margin-left: 670px;
 }
 
 .desc {
@@ -82,12 +83,13 @@ body {
     color: #020E35;
 }
 
-.line-services {
+hr.line-services {
+    opacity: 100%;
     border: 1px solid #E73587;
     width: 100px;
     position: absolute;
-    left: 670px;
-    top: 1127px;
+    margin-top: 1107px;
+    margin-left: 670px;
 }
 
 /* card */
