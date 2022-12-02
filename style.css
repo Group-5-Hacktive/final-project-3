@@ -17,7 +17,7 @@ body {
     position: absolute;
     width: 100vw;
     height: 2392px;
-    transform: translateY(530px);
+    transform: translateY(1449px);
 
     background: #020E35;
 }
@@ -38,7 +38,17 @@ body {
 
     color: #020E35;
 }
-
+.circle {
+    width: 276px;
+    height: 276px;
+    border-radius: 50%;
+    background-color: #f0f3fa;
+    position: absolute;
+    top: 722px;
+    left: 0;
+    z-index: 99;
+    transform: translateX(-50%);
+}
 hr.line-about {
     opacity: 100%;
     border: 1px solid #E73587;
