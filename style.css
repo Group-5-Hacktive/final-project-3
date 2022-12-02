@@ -4,6 +4,7 @@ body {
     right: 0;
     top: 0;
     bottom:0;
+    overflow-x: hidden;
 }
 
 
@@ -175,6 +176,7 @@ body {
     height: 48px;
     width: 554px;
     border: none;
+    transition: all 0.5s ease;
 
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
 }
@@ -188,8 +190,9 @@ body {
     width: 554px;
     border: none;
 
+    transition: all 0.5s ease;
     background: linear-gradient(270deg, #E73587 0%, #8C32F0 100%);
-    transition: 0.5s;
+
 }
 
 .footer {
