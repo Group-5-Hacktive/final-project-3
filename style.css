@@ -1,11 +1,26 @@
 body {
+    overflow-x: hidden;
     position: absolute;
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
+    margin: 0;
+    padding: 0;
 }
 /* section b */
+/* background */
+.bg-container {
+    position: relative;
+}
+.bg {
+    position: absolute;
+    width: 100vw;
+    height: 2392px;
+    transform: translateY(530px);
+
+    background: #020E35;
+}
 /* about us */
 .title-about {
     position: absolute;
@@ -24,7 +39,7 @@ body {
     color: #020E35;
 }
 
-hr.line-about {
+.line-about {
     border: 1px solid #E73587;
     width: 100px;
     position: absolute;
@@ -67,7 +82,7 @@ hr.line-about {
     color: #020E35;
 }
 
-hr.line-services {
+.line-services {
     border: 1px solid #E73587;
     width: 100px;
     position: absolute;
@@ -76,8 +91,61 @@ hr.line-services {
 }
 
 /* card */
-.card-1 {
+.card-swiper {
+    padding: 0px 100px;
+    margin-top: 1157px;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+.swiper-slide {
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper.mySwiper {
+    position: relative;
+}
+
+div.swiper-button-next {
     position: absolute;
+    width: 76px;
+    height: 76px;
+    margin-top: 1080px;
+    margin-right: 0px;
+
+    color: white;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+div.swiper-button-prev {
+    position: absolute;
+    width: 76px;
+    height: 76px;
+    margin-top: 1080px;
+    margin-left: 0px;
+
+    color: white;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.card-1 {
     width: 377px;
     height: 583px;
     left: 135px;
@@ -87,7 +155,6 @@ hr.line-services {
     background-color: #FDF8E3;
 }
 .card-2 {
-    position: absolute;
     width: 377px;
     height: 583px;
     left: 532px;
@@ -97,7 +164,6 @@ hr.line-services {
     background: #F0F3FA;
 }
 .card-3 {
-    position: absolute;
     width: 377px;
     height: 583px;
     left: 929px;
@@ -197,7 +263,7 @@ hr.line-services {
 }
 
 .card-button {
-    position: absolute;
+ 
     width: 140px;
     height: 40px;
     border: none;
@@ -207,11 +273,19 @@ hr.line-services {
     margin-left: 118px;
     margin-right: 119px;
 
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: white;
+    transition-delay: 5s;
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
 }
 
 .card-button:hover {
-    position: absolute;
+
     width: 140px;
     height: 40px;
     border: none;
@@ -222,7 +296,7 @@ hr.line-services {
     margin-right: 119px;
 
     background: linear-gradient(270deg, #E73587 0%, #8C32F0 100%);
-    transition: 0.5s;
+
 }
 
 /* end our valuable services */
