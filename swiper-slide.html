@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
     <link rel="stylesheet" href="style.css" />
 
     <!-- google font  -->
@@ -15,7 +17,6 @@
       href="https://fonts.googleapis.com/css2?family=Basic&family=Work+Sans:wght@600&display=swap"
       rel="stylesheet"
     />
-
     <!-- JavaScript Bundle with Popper -->
     <!-- CSS only -->
     <link
@@ -29,36 +30,14 @@
       integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
       crossorigin="anonymous"
     ></script>
-
     <!-- Link Swiper's CSS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
     />
   </head>
+
   <body>
-    <!-- bagian b -->
-    <!-- about us -->
-    <div class="about-us">
-      <h1 class="title-about">About Us</h1>
-      <hr class="line-about" />
-      <p class="desc">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
-      </p>
-      <div class="circle"></div>
-    </div>
-    <!-- background -->
-    <div class="bg-container">
-      <div class="bg"></div>
-    </div>
-    <!-- services -->
-    <div class="services">
-      <h1 class="title-services">Our Valuable Services</h1>
-      <hr class="line-services" />
-    </div>
     <div class="card-swiper">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -166,9 +145,18 @@
           </div>
         </div>
       </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev">
+        <button class="prev-button">
+          <h1 class="prev-arrow"><</h1>
+        </button>
+      </div>
+      <div class="swiper-button-next">
+        <button class="next-button">
+          <h1 class="next-arrow">></h1>
+        </button>
+      </div>
     </div>
+
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
@@ -187,52 +175,5 @@
         },
       });
     </script>
-    <!-- Bagian D  -->
-    <!-- Letter -->
-    <div class="container">
-      <div class="right-title">
-        <h5 class="text-1">Questions, Comments, Concerns?</h5>
-        <h1 class="text-2">
-          We'd love to <span class="highlighted-font">hear</span> from you!
-        </h1>
-      </div>
-    </div>
-    <div class="container">
-      <div class="left-form">
-        <br />
-        <p class="email">Your Email Address</p>
-        <input
-          class="email-box"
-          type="text"
-          placeholder="something@website.com"
-        />
-        <br />
-        <br />
-        <p class="subject">Subject</p>
-        <input
-          class="subject-box"
-          type="text"
-          placeholder="Question About Article"
-        />
-        <br />
-        <br />
-        <p class="message">Message</p>
-        <textarea
-          class="message-box"
-          type="text"
-          placeholder="Your message starts with..."
-        ></textarea>
-        <br />
-        <br />
-        <button class="submit-button" type="submit">Send a Message</button>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <div class="container">
-      <div class="footer">
-        <p class="copyright">2020 © All rights reserved by Your company name</p>
-      </div>
-    </div>
   </body>
 </html>
