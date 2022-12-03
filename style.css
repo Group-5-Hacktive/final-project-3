@@ -753,24 +753,20 @@ hr.line-work {
 }
 
 .submit-button {
-    
-    margin-left: 640px;
+    margin-left: 0px;
     height: 48px;
     width: 554px;
     border: none;
-
+    color: white;
     background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
 }
 
 .submit-button:hover {
-   
-
     background: linear-gradient(270deg, #E73587 0%, #8C32F0 100%);
     transition: 0.5s;
 }
 
 .footer {
-   
     width: 1440px;
     height: 25px;
     left: 0px;
@@ -781,10 +777,9 @@ hr.line-work {
 }
 
 .copyright {
-   
     width: 258px;
     height: 15px;
-    left: 135px;
+    margin-left: 100px;
     top: 4536px;
 
     font-family: 'Basic';
@@ -793,7 +788,6 @@ hr.line-work {
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-
 
     color: #FFFFFF;
 }
