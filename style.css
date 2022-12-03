@@ -18,6 +18,7 @@ body {
     width: 100vw;
     height: 2392px;
     transform: translateY(1449px);
+    z-index: -100;
 
     background: #020E35;
 }
@@ -275,7 +276,8 @@ div.swiper-button-prev {
 }
 
 .card-button {
- 
+    
+    
     width: 140px;
     height: 40px;
     border: none;
@@ -310,9 +312,70 @@ div.swiper-button-prev {
     background: linear-gradient(270deg, #E73587 0%, #8C32F0 100%);
 
 }
-
 /* end our valuable services */
 /* end section b */
+
+/* section c */
+.section{
+    background-color: #020e35;
+    width: 1440px;
+    height: 2392px;
+    padding-left: 135px;
+}
+#our-work{
+    color: white;
+    z-index: 199;
+}
+.subtitle{
+    font-family: 'Basic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+}
+#our-work .work{
+    display:flex;
+    gap: 20px;
+    margin-top: 60px;
+    
+}
+#our-work img{
+    width: 587px;
+    height: 390px;
+    object-fit:cover;
+}
+.brand{
+    font-family: 'Basic';
+    width: 587px;
+}
+.brand h6{
+    font-size:30px;
+}
+.brand #subtitle{
+    font-family: 'Basic';
+    font-size:15px;
+    margin-top: 16PX;
+}
+.brand #article{
+    font-family: 'Basic';
+    font-size:16px;
+}
+.brandleft {
+    text-align:right;
+}
+button{
+    height: 40px;
+    width: 140px;
+    border-radius: 0px;
+    background: linear-gradient(270deg, #8C32F0 0%, #E73587 100%);
+    margin-top:50px;
+    position: absolute;
+    left:650px;
+}
+
+/* end section c */
 .right-title {
     margin-left: 120px;
 }
