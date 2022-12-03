@@ -540,8 +540,10 @@ button{
 }
 
 /* end section c */
+/* sectoin d */
 .right-title {
-    margin-left: 120px;
+   margin-top: 230px;
+   
 }
 
 .text-1{
@@ -700,11 +702,8 @@ button{
 }
 
 .submit-button {
-
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
+    
+    margin-left: 640px;
     height: 48px;
     width: 554px;
     border: none;
@@ -713,13 +712,7 @@ button{
 }
 
 .submit-button:hover {
-    left: 0%;
-    right: 0%;
-    top: 0%;
-    bottom: 0%;
-    height: 48px;
-    width: 554px;
-    border: none;
+   
 
     background: linear-gradient(270deg, #E73587 0%, #8C32F0 100%);
     transition: 0.5s;
